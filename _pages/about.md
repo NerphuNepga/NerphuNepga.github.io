@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Software Engineering student and developer specializing in Fullstack Development, System Architecture, and UI/UX Design. My approach focuses on bridging robust technical infrastructure with intuitive, accessible user experiences.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My technical background spans across various domains. Recently, I developed an AI-powered sign language translation application utilizing TensorFlow Lite, demonstrating a commitment to accessibility. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond writing code, I place a heavy emphasis on data-driven system evaluation. I have conducted rigorous User Acceptance Testing (UAT) and System Usability Scale (SUS) research to ensure software meets the highest quality standards before deployment.
+
+I thrive at the intersection of complex backend logic and empathetic frontend design. Currently, I am seeking opportunities to apply my analytical background and software engineering principles to dynamic, large-scale projects—including infrastructure development and system analysis for interactive media.
