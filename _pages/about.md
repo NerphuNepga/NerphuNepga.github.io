@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Software Engineering Student, Telkom University
 
 profile:
   align: right
@@ -11,9 +11,9 @@ profile:
   more_info: >
     <p>Telkom University</p>
     <p>Mekar Manis St No.6</p>
-    <p>Your Bandung, West Java 40213</p>
+    <p>Bandung, West Java 40213</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
