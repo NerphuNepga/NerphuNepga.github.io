@@ -1,0 +1,95 @@
+cv:
+  name: Muhammad Arrayan Fikri
+  label: Software Engineer
+  email: arrayanfikri@student.telkomuniversity.ac.id
+  location: Bandung, West Java
+  image: ""
+  summary: A Software Engineering student and developer with proficiency in UI/UX design, full-stack web, and mobile development. Passionate about leveraging technology for social impact, including marine conservation and accessibility.
+
+  social_networks:
+    - network: Instagram
+      username: KazzyNep
+    - network: GitHub
+      username: NerphuNepga
+
+  address:
+    street: 06 Mekar Manis St
+    city: Bandung
+    region: West Java
+    postalCode: 40213
+    countryCode: ID
+
+  sections:
+    Education:
+      - institution: Telkom University
+        location: Bandung, Indonesia
+        url: https://telkomuniversity.ac.id/
+        area: Software Engineering
+        studyType: Bachelor's Degree
+        start_date: 2023
+        end_date: Present
+        score: ""
+        courses: "Object-Oriented Programming, Software Construction"
+        highlights:
+          - Focus on full-stack development and UI/UX design.
+          - Active in Technology for Society (TPLM) activities and social impact research.
+
+    Projects:
+      - name: Gestra (Accessibility App)
+        summary: A mobile and web application designed to translate SIBI sign language into text and speech.
+        highlights:
+          - Developed key front-end UI components, including the interactive homepage, settings configurations, and dark mode functionality.
+          - Executed autonomous testing protocols to identify interface bugs and ensure seamless functionality across different application states.
+        start_date: 2025-02
+        end_date: 2026-06
+        
+      - name: TPLM - School Quiz Application
+        summary: Served as UI/UX Designer and directed Quality Assurance testing for a school quiz application evaluated at the Telkom University TULT building.
+        highlights:
+          - Conducted comprehensive User Acceptance Testing (UAT) to identify software bugs and assess UX friction.
+          - Administered System Usability Scale (SUS) evaluations, achieving an 84.29 usability score.
+          - Drafted analytical reports detailing testing outcomes and usability metrics.
+        start_date: 2025-10
+        end_date: 2026-01
+  
+      - name: siPelakor (Marine Conservation Gamified App)
+        summary: Developed a gamified marine conservation application aligned with SDG 14 as the capstone project for university UX coursework, utilizing a literature study method.
+        highlights:
+          - Designed wireframes and mapped user flows to optimize interface usability and accessibility.
+          - Integrated gamified elements to promote marine cleanliness and enhance user engagement.
+        start_date: 2025-10
+        end_date: 2026-01
+  
+      - name: Citizen Complaint Online (Case Study)
+        summary: Planned project management documentation for a local government citizen complaint system for Dinas Komunikasi dan Informatika Kabupaten Pemalang.
+        highlights:
+          - Implemented Gantt charts, risk mitigation strategies, and quality management standards.
+        start_date: 2025-10
+        end_date: 2025-12
+
+    Skills:
+      - name: Quality Assurance & UX Research
+        level: Advanced
+        icon: fa-solid fa-vial
+        keywords: "User Acceptance Testing (UAT), System Usability Scale (SUS), Bug Reporting, Wireframing, UML Documentation, User Flows"
+
+      - name: Development & Prototyping
+        level: Intermediate
+        icon: fa-solid fa-code
+        keywords: "Dart (Flutter), HTML, CSS, JavaScript, Java, PHP (Laravel), Git Version Control"
+
+    Languages:
+      - name: Indonesia
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent B2"
+
+    Interests:
+      - name: Game Mechanics & Narrative Analysis
+        icon: fa-solid fa-gamepad
+        keywords: "Analyzing in-game balancing (power-scaling, skill trees) and narrative alignment archetypes in complex story-driven titles (Action-Adventure, RPGs)"
+
+      - name: Human-Computer Interaction (HCI) & Accessibility
+        icon: fa-solid fa-universal-access
+        keywords: "Researching inclusive design patterns and studying how users interact with complex software interfaces and narrative-driven systems."
