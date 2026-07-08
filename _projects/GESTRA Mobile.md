@@ -39,10 +39,10 @@ Creating an accessible interface requires rigorous testing. By automating the UI
 
 <div class="row justify-content-sm-center align-items-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gestra-testing-result.png" title="Test Files Explorer" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/gestra-testing.png" title="Test Files Explorer" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gestra-testing.png" title="Terminal Output Tests Passed" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/gestra-testing-result.png" title="Terminal Output Tests Passed" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
