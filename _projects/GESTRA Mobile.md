@@ -20,13 +20,13 @@ During the development cycle, my primary focus was bridging the gap between desi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gestra-home.jpg" title="Gestra Homepage UI" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gestra-home.jpeg" title="Gestra Homepage UI" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gestra-settings.jpg" title="Settings Configuration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gestra-settings.jpeg" title="Settings Configuration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gestra-darkmode.jpg" title="Dark Mode Feature" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gestra-darkmode.jpeg" title="Dark Mode Feature" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -37,13 +37,16 @@ During the development cycle, my primary focus was bridging the gap between desi
 
 Creating an accessible interface requires rigorous testing. By automating the UI testing protocols, we were able to quickly iterate on the front-end design without manually verifying every state change. This ensured that the application remained stable, preventing UI friction from hindering the core translation features.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gestra-testing.jpg" title="Autonomous Testing" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/gestra-testing-result.png" title="Test Files Explorer" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/gestra-testing.png" title="Terminal Output Tests Passed" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Executing autonomous testing protocols to hunt for UI friction points and ensure seamless functionality across light and dark modes.
+    Automated testing suite for Gestra. On the left, the structured unit and widget test files. On the right, the terminal output confirming all 42 tests passed successfully.
 </div>
 
 ### System Architecture
@@ -52,10 +55,7 @@ Before writing the front-end code, the architecture was mapped out to ensure the
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gestra-uml.jpg" title="UML Documentation" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gestra-wbs.jpg" title="Work Breakdown Structure" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/gestra-uml.png" title="UML Documentation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
