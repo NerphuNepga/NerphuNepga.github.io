@@ -59,5 +59,5 @@ Before writing the front-end code, the architecture was mapped out to ensure the
     </div>
 </div>
 <div class="caption">
-    System architecture and project management documentation. Left: UML flow charting user interactions. Right: WBS structuring the development pipeline.
+    System architecture mapping the client-server interactions between the mobile application's UI, the Laravel backend, and the local TensorFlow Lite inference service.
 </div>
