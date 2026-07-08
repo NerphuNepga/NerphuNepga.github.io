@@ -16,7 +16,7 @@ During the development cycle, my primary focus was bridging the gap between desi
 
 *   **UI/UX Implementation:** Developed the interactive homepage, configurable user settings, and engineered a seamless dark mode toggle to enhance visual accessibility.
 *   **Quality Assurance:** Set up and executed autonomous testing protocols to identify interface bugs and ensure UI stability across different application states.
-*   **Technical Planning:** Drafted the Work Breakdown Structure (WBS) and comprehensive UML documentation to map out the development pipeline and structural logic.
+*   **Technical Planning:** Drafted a comprehensive UML documentation to map out the structural logic.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
