@@ -4,8 +4,8 @@ cv:
   email: arrayanfikri@student.telkomuniversity.ac.id
   location: Bandung, West Java
   image: ""
-  summary: A Software Engineering student and developer with proficiency in UI/UX design, full-stack web, and mobile development. Passionate about leveraging technology for social impact, including marine conservation and accessibility.
-
+  summary: Software Engineering student with a strong technical background in Quality Assurance and UI/UX design. Experienced in executing functional and non-functional tests, managing technical documentation, and applying rigorous testing methodologies to optimize product performance. Passionate about problem-solving and delivering high-quality user experiences through structured development and testing processes.
+  
   social_networks:
     - network: Instagram
       username: KazzyNep
@@ -29,28 +29,28 @@ cv:
         start_date: 2023
         end_date: Present
         score: ""
-        courses: "Object-Oriented Programming, Software Construction"
+        courses: "Object-Oriented Programming, Software Construction, Software Quality Assurance, Software Testing, Database Systems, Web/Mobile Programming"
         highlights:
-          - Focus on full-stack development and UI/UX design.
-          - Active in Technology for Society (TPLM) activities and social impact research.
+          - Actively participated in TPLM (Technology for Society) initiatives to apply software engineering principles to real-world community projects.
 
     Projects:
-      - name: Gestra (Accessibility App)
-        summary: A mobile and web application designed to translate SIBI sign language into text and speech.
+      - name: Gestra - Sign Language Translation Application
+        summary: Collaborated in a team to develop a mobile and web application that translates SIBI sign language into text and speech.
         highlights:
-          - Developed key front-end UI components, including the interactive homepage, settings configurations, and dark mode functionality.
-          - Executed autonomous testing protocols to identify interface bugs and ensure seamless functionality across different application states.
+          - Designed and developed essential user interfaces for GESTRA, a real-time SIBI sign language translation application, specifically programming the main homepage, settings module, and a system-responsive dark mode.
+          - Engineered automated testing scripts and performed manual debugging to identify and resolve front-end defects, enhancing visual consistency and stabilizing UI state transitions.
+          - Collaborated in Agile framework to develop interface flowcharts, facilitating seamless user experience and smooth navigation between application front-end modules.
         start_date: 2025-02
         end_date: 2026-06
         
       - name: TPLM - School Quiz Application
         summary: Served as UI/UX Designer and directed Quality Assurance testing for a school quiz application evaluated at the Telkom University TULT building.
         highlights:
-          - Conducted comprehensive User Acceptance Testing (UAT) to identify software bugs and assess UX friction.
-          - Administered System Usability Scale (SUS) evaluations, achieving an 84.29 usability score.
-          - Drafted analytical reports detailing testing outcomes and usability metrics.
-        start_date: 2025-10
-        end_date: 2026-01
+          - Designed wireframes, prototypes, and high-fidelity visuals in Figma for a school quiz application, enhancing learning experiences for students and teachers at SDN 12 Babakan Ciparay.
+          - Conducted User Acceptance Testing (UAT) sessions at Telkom University TULT building, validating design decisions and collecting insights to inform iterative improvements.
+          - Assessed application interface using System Usability Scale (SUS), securing a usability score of 84.29, indicating a high level of user satisfaction. 
+        start_date: 2025-11
+        end_date: 2026-04
   
       - name: siPelakor (Marine Conservation Gamified App)
         summary: Developed a gamified marine conservation application aligned with SDG 14 as the capstone project for university UX coursework, utilizing a literature study method.
