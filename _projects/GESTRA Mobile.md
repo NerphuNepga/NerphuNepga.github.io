@@ -4,7 +4,7 @@ title: GESTRA Mobile
 description: An accessibility application translating SIBI sign language into text and speech.
 img: assets/img/gestra-logo.png
 importance: 1
-category: work
+category: academic
 related_publications: false
 ---
 
