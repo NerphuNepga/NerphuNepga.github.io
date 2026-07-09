@@ -1,81 +1,44 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
+title: TPLM Quiz Application
+description: Usability evaluation and acceptance testing for an educational platform.
+img: assets/img/tplm-logo.png
 importance: 3
-category: work
+category: academic
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+For the Technology for Society (TPLM) initiative, I led the UI/UX design for a newly developed school quiz application. The primary objective was to craft an intuitive, accessible, and distraction-free interface tailored specifically for students in an academic testing environment.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Interface Design & User Flow
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Designing an educational testing tool requires minimizing UI friction so students can focus entirely on the quiz content rather than figuring out how to navigate the app. I focused on establishing a clean visual hierarchy, legible typography, and straightforward navigation across the core user journeys.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/tplm-login.png" title="Student Login UI" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/tplm-quiz.png" title="Active Quiz UI" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/tplm-results.png" title="Results Dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The core student interface. Left: A streamlined authentication experience. Middle: The active testing environment designed to maximize focus. Right: The post-quiz results dashboard.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Validating the Design: UAT & SUS Evaluation
 
-{% raw %}
+Great UI/UX requires real-world validation. To ensure the interface met the practical needs of actual users, the designs were put through rigorous on-site User Acceptance Testing (UAT) at the TULT building in January 2026. Observing end-users interact with the application allowed me to validate the navigational flow and confirm that the structural choices held up in practice.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+Following the practical testing phase, quantitative usability data was gathered using the System Usability Scale (SUS). The interface achieved a final SUS score of **84.29**, placing it well above the industry average and providing concrete proof of the design's effectiveness and user satisfaction.
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/tplm-sus-report.png" title="SUS Score Report" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+    The final usability metrics report, confirming the UI's success with an 84.29 SUS score during the TULT evaluation.
+</div>
