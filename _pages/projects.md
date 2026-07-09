@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected work and case studies. Explore my journey in software engineering and UX design, focusing on creating meaningful solutions for real-world problems through data-driven development.
 nav: true
 nav_order: 3
 display_categories: [academic, work, fun]
