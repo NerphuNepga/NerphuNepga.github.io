@@ -4,7 +4,7 @@ title: siPelakor
 description: A gamified marine conservation application supporting SDG 14.
 img: assets/img/siPelakor-logo.png
 importance: 2
-category: work
+category: academic
 related_publications: false
 ---
 
