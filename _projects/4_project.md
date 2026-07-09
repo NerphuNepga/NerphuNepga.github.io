@@ -1,80 +1,81 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: LowKos
+description: A user-centered UI/UX design project focusing on Human-Computer Interaction principles for property management and student housing.
+img: assets/img/imk-logo.png
+importance: 4
+category: academic
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+LowKos was developed as part of an Interaksi Manusia dan Komputer (IMK) study, focusing heavily on user-centered design methodologies. The core objective was to bridge the gap between students seeking strategic, well-facilitated boarding houses (kos) and property owners needing efficient digital management tools.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### User Research & Personas
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Before opening Figma, the project began with comprehensive user research. By conducting questionnaires and direct interviews, data was gathered on the primary pain points of both demographics. This led to the creation of distinct user personas—such as students prioritizing flexible payments and close proximity to campus, and owners needing streamlined communication and automated financial tracking.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/imk-user-persona-penghuni.png" title="Tenant Persona" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/imk-user-persona-pemilik.png" title="Landlord Persona" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Synthesizing research from the IMK report into actionable user personas. The data highlighted the conflicting needs of both sides of the platform, requiring a dual-focused design approach.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+### Task Analysis & System Architecture
+
+To ensure the interface minimized cognitive load, the system's logic was mapped out before any visual design began. A Hierarchical Task Analysis (HTA) isolates core activities, while a comprehensive user flow diagram dictates the logical pathways and system decisions required to complete those tasks. 
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/imk-hta.png" title="Hierarchical Task Analysis" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/imk-user-flow.jpg" title="System User Flow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Mapping the system architecture. Top: The HTA isolating the critical tenant journeys (Searching and Payment). Bottom: The business process flowchart dictating the system logic from search to reservation and payment.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Design System & High-Fidelity UI
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+Applying HCI principles, the final interface was designed with a strong focus on accessibility and intuitive navigation. The visual style utilizes a primary "Light Blue" and "Soft Gray" color palette to evoke a calming and modern aesthetic, ensuring a sense of security for students. For typography, the interface relies on Roboto and Helvetica to maintain clean readability across different screen sizes.
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/imk-search-hifi.png" title="Search UI" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/imk-desc-hifi.png" title="Property Detail UI" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/imk-payment-hifi.png" title="Payment Interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The high-fidelity UI design. The interface prioritizes clear iconography, responsive bottom navigation, and intuitive forms for seamless transactions.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Usability Evaluation
 
-{% raw %}
+A critical phase of the IMK methodology is evaluating the design. On-site usability testing sessions were conducted to observe how users interacted with the prototype across four main scenarios. 
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+The evaluation yielded highly positive results: task completion rates for navigating the homepage, updating profiles, and searching for locations reached **100%** without errors. The testing also successfully identified a navigational bottleneck in the payment layout (which saw an 80% completion rate), providing clear, actionable data for the next iteration of the UI design.
+
+<div class="row justify-content-sm-center align-items-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/imk-sus-efektivitas.png" title="Effectiveness Metrics" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/imk-sus-efisiensi.png" title="Efficiency Metrics" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+    Quantitative usability testing results. Left: The effectiveness table showing the 100% success rate on core tasks. Right: The efficiency table tracking the average time and steps taken per task.
+</div>
